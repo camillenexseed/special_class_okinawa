@@ -187,7 +187,7 @@ a:hover {
 
 ### さらにバリエーションを増やしてみる
 
-さらにホバーすると背景が右側にスライドインするアニメーションを追加してみましょう。
+ホバーすると背景が右側にスライドインアニメーションをするボタンを作ってみましょう。
 
 ![アニメーション](https://github.com/camillenexseed/special_class_okinawa/blob/master/images/vzfo7-fdnym.gif)
 
@@ -204,6 +204,7 @@ p {
   text-align: center;
   padding: 20px;
 }
+
 a {
   font-weight: bold;
   letter-spacing: .2em;
@@ -217,6 +218,7 @@ a {
   color: #ffffff;
   position: relative;
 }
+
 a::before {
   z-index: -1;
   content: '';
@@ -229,6 +231,7 @@ a::before {
   background: linear-gradient(135deg, rgba(242,144,46,1) 55%,rgb(245, 98, 0) 55%);
   transition: .3s;
 }
+
 a:hover::after {
   z-index: 1;
   content: '';
@@ -240,7 +243,92 @@ a:hover::after {
   right: 0;
   background: linear-gradient(135deg, rgba(242,144,46,0) 50%,rgb(245, 98, 0) 50%);
 }
+
 a:hover::before {
   left: 0;
 }
+```
+
+## ちょっとだけJavaScriptを書いてみよう
+
+JavaScriptとはブラウザ上でカンタンに動くプログラミング言語です。アニメーションとか簡単に実装できます。
+
+JavaScriptの歯車マークから無料で使えるJavaScriptを追加します。
+**jQuery**を追加しましょう。
+
+
+追加したら、以下のようにコードを書いてみましょう。
+
+[JavaScript完成イメージとコード](https://codepen.io/camillenexseed/pen/MWgqmdM)
+
+JavaScript:
+```
+$('a').on('click', () => {
+  alert('Hello, World!');
+});
+```
+
+### おみくじを作ってみよう
+
+[おみくじの完成イメージとコード](https://codepen.io/camillenexseed/pen/vYBzZgd)
+
+JavaScriptの歯車マークから無料で使えるJavaScriptを追加します。
+**jQuery**を追加しましょう。
+
+HTML:
+```
+<p><a class="stripe">おみくじ</a></p>
+<p class="result"></p>
+```
+
+CSS:
+```
+p {
+  text-align: center;
+  padding: 20px;
+}
+
+.result {
+  font-size: 30px;
+}
+
+a {
+  padding: 20px;
+  color: #fff;
+  background: #000;
+}
+
+#_0 {
+  background: red;
+  color: #fff;
+}
+
+#_1 {
+  background: blue;
+  color: #fff;
+}
+
+#_2 {
+  background: green;
+  color: #fff;
+}
+
+#_3 {
+  background: orange;
+  color: #fff;
+}
+
+#_4 {
+  background: gray;
+  color: #fff;
+}
+```
+
+JavaScript:
+```
+$('a').on('click', () => {
+  const resultArray = ['大吉','中吉','小吉','末吉','凶'];
+  let randomNum = Math.floor(Math.random()*resultArray.length);
+  $('.result').text(resultArray[randomNum]).attr('id', '_'+ randomNum);
+});
 ```
