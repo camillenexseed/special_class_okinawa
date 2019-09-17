@@ -19,7 +19,7 @@ CodePenを使って、実際に手を動かしてみましょう。
 初心者でも優しい、**Emmet**という機能があります。今日はこれを使ってコーディングします。
 HTMLやCSSのコードを書くことをコーディングといいます。
 
-[HTML&CSSの完成イメージとコード](https://codepen.io/camillenexseed/pen/WNegpQr){:target="_blank"}
+[HTML&CSSの完成イメージとコード](https://codepen.io/camillenexseed/pen/WNegpQr)
 
 ## 見出しタグを書いてみよう！
 
@@ -96,7 +96,7 @@ li {
 
 せっかくなのでリンクタグを装飾してこんな感じの王道なクリックボタンを作ってみましょう！！
 
-[ボタンの完成イメージとコード](https://codepen.io/camillenexseed/pen/pozOeoE){:target="_blank"}
+[ボタンの完成イメージとコード](https://codepen.io/camillenexseed/pen/pozOeoE)
 
 まずは新しいPenを作りましょう。
 
@@ -168,7 +168,7 @@ transition: .3s;
 
 今度はマウスオーバーしたら背景の色が反転するタイプのボタンを作ってみましょう！
 
-[ボタンの完成イメージとコード](https://codepen.io/camillenexseed/pen/WNegpYj){:target="_blank"}
+[ボタンの完成イメージとコード](https://codepen.io/camillenexseed/pen/WNegpYj)
 
 まずは a {}の}の前に以下コードを追加します。
 
@@ -191,7 +191,7 @@ a:hover {
 
 ![アニメーション](https://github.com/camillenexseed/special_class_okinawa/blob/master/images/vzfo7-fdnym.gif)
 
-[ボタンの完成イメージとコード](https://codepen.io/camillenexseed/pen/BaBOWXp){:target="_blank"}
+[ボタンの完成イメージとコード](https://codepen.io/camillenexseed/pen/BaBOWXp)
 
 HTML:
 ```
@@ -255,7 +255,7 @@ a:hover::before {
 
 JavaScriptとはブラウザ上でカンタンに動くプログラミング言語です。アニメーションとか簡単に実装できます。
 
-[JavaScript完成イメージとコード](https://codepen.io/camillenexseed/pen/MWgqmdM){:target="_blank"}
+[JavaScript完成イメージとコード](https://codepen.io/camillenexseed/pen/MWgqmdM)
 
 JavaScriptの歯車マークから無料で使えるJavaScriptを追加します。
 **jQuery**を追加しましょう。
@@ -271,7 +271,7 @@ $('a').on('click', () => {
 
 ### おみくじを作ってみよう
 
-[おみくじの完成イメージとコード](https://codepen.io/camillenexseed/pen/vYBzZgd){:target="_blank"}
+[おみくじの完成イメージとコード](https://codepen.io/camillenexseed/pen/vYBzZgd)
 
 JavaScriptの歯車マークから無料で使えるJavaScriptを追加します。
 **jQuery**を追加しましょう。
