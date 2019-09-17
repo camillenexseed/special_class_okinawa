@@ -187,6 +187,8 @@ a:hover {
 
 ### さらにバリエーションを増やしてみる
 
+さらにホバーすると背景が右側にスライドインするアニメーションを追加してみましょう。
+
 ![アニメーション](https://github.com/camillenexseed/special_class_okinawa/blob/master/images/vzfo7-fdnym.gif)
 
 [ボタンの完成イメージとコード](https://codepen.io/camillenexseed/pen/BaBOWXp)
