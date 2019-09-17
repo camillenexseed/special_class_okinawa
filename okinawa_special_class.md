@@ -104,3 +104,53 @@ CodePenのCSSの左上の歯車マークをクリックすると、無料で使�
 読み込む順番が大切です！normalize、font-awesomeの順番に読み込みましょう。
 
 ![CSSを追加する](https://github.com/camillenexseed/special_class_okinawa/blob/master/images/css_add.png)
+
+以下コードをHTML、CSSそれぞれに貼り付けます。
+
+HTML:
+```
+<p><a href="#" class="btn default"><i class="fa fa-envelope"></i>CONTACT</a></p>
+```
+
+CSS:
+```
+p {
+  text-align: center;
+  padding: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a i {
+  padding-right: 5px;
+}
+```
+
+ボタンの色を変えてみましょう！
+a {　} の }前に以下を追加。できる人は色を変えてみましょう！
+```
+background: orangered;
+color: #fff;
+```
+
+マウスオーバーの時にアクションを追加してみましょう。
+できたらボタンの上にカーソルを合わせてみましょう。
+色が半透明になったら成功です！
+
+```
+a:hover {
+  opacity: .5;
+}
+```
+
+a {　} の }前に以下を追加してアニメーションするようにしましょう。
+ふんわり半透明になったら成功です！
+
+```
+transition: .3s;
+```
