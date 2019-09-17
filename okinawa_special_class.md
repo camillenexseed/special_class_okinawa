@@ -184,3 +184,61 @@ a:hover {
   background: #ffffff;
 }
 ```
+
+### さらにバリエーションを増やしてみる
+
+![アニメーション](https://github.com/camillenexseed/special_class_okinawa/blob/master/images/vzfo7-fdnym.gif)
+
+[ボタンの完成イメージとコード](https://codepen.io/camillenexseed/pen/BaBOWXp)
+
+HTML:
+```
+<p><a class="stripe">Button</a></p>
+```
+
+CSS:
+```
+p {
+  text-align: center;
+  padding: 20px;
+}
+a {
+  font-weight: bold;
+  letter-spacing: .2em;
+  display: inline-block;
+  z-index: 1;
+  padding: 20px 20px;
+  width: 200px;
+  overflow: hidden;
+  text-align: center;
+  background: rgb(245, 98, 0);
+  color: #ffffff;
+  position: relative;
+}
+a::before {
+  z-index: -1;
+  content: '';
+  width: calc(200% + 40px);
+  position: absolute;
+  left: calc(-100% - 40px);
+  height: 100%;
+  display: block;
+  top: 0;
+  background: linear-gradient(135deg, rgba(242,144,46,1) 55%,rgb(245, 98, 0) 55%);
+  transition: .3s;
+}
+a:hover::after {
+  z-index: 1;
+  content: '';
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  display: block;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(135deg, rgba(242,144,46,0) 50%,rgb(245, 98, 0) 50%);
+}
+a:hover::before {
+  left: 0;
+}
+```
