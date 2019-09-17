@@ -19,6 +19,8 @@ CodePenを使って、実際に手を動かしてみましょう。
 初心者でも優しい、**Emmet**という機能があります。今日はこれを使ってコーディングします。
 HTMLやCSSのコードを書くことをコーディングといいます。
 
+[HTML&CSSの完成イメージとコード](https://codepen.io/camillenexseed/pen/WNegpQr)
+
 ## 見出しタグを書いてみよう！
 
 ### 見出しタグってなーに？
@@ -93,7 +95,10 @@ li {
 ## ボタンを書いてみよう
 
 せっかくなのでリンクタグを装飾してこんな感じの王道なクリックボタンを作ってみましょう！！
-新しいPenを作りましょう。
+
+[ボタンの完成イメージとコード](https://codepen.io/camillenexseed/pen/pozOeoE)
+
+まずは新しいPenを作りましょう。
 
 ![ボタン](https://github.com/camillenexseed/special_class_okinawa/blob/master/images/btn.png)
 
