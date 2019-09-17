@@ -92,8 +92,15 @@ li {
 
 ## ボタンを書いてみよう
 
-せっかくなので可愛いボタンを作ってみましょう！！
-
-王道なものを作ってみましょう！
+せっかくなのでリンクタグを装飾してこんな感じの王道なクリックボタンを作ってみましょう！！
+新しいPenを作りましょう。
 
 ![ボタン](https://github.com/camillenexseed/special_class_okinawa/blob/master/images/btn.png)
+
+CodePenのCSSの左上の歯車マークをクリックすると、無料で使えるCSSを追加できます。
+スタイルを初期化する**normalize.css**と**font-awesome**というアイコンを使えるようにできるCSSを追加します。
+
+検索窓にnormalize、font-awesomeと入力してCodePenに追加します。
+読み込む順番が大切です！normalize、font-awesomeの順番に読み込みましょう。
+
+![CSSを追加する](https://github.com/camillenexseed/special_class_okinawa/blob/master/images/css_add.png)
