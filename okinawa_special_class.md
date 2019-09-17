@@ -96,4 +96,4 @@ li {
 
 王道なものを作ってみましょう！
 
-[ボタン](https://raw.githubusercontent.com/camillenexseed/special_class_okinawa/images/btn.png)
+![ボタン](https://raw.githubusercontent.com/camillenexseed/special_class_okinawa/images/btn.png)
